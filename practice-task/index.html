@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fetch API Practice</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+
+      .product {
+        border: 1px solid #ddd;
+        padding: 12px;
+        margin-bottom: 10px;
+        border-radius: 6px;
+      }
+
+      .loading {
+        font-weight: bold;
+      }
+
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Product List</h1>
+
+    <p id="loading" class="loading" style="display: none">
+      Loading products...
+    </p>
+    <p id="error" class="error"></p>
+
+    <div id="productList"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- 1. Fetch sample product list from dummyjson.com -->
+<!-- 2. Display products on webpage -->
+<!-- 3. Add loading state -->
+<!-- 4. Add error state -->
+<!-- 5. Fetch single product -->
+<!-- 6. POST request (simulation) -->
+<!-- 7. DELETE request -->
